@@ -1,0 +1,5 @@
+{
+  "colorScheme": "tokyo night",
+  "model": "Gemini 3.1 Pro (High)",
+  "toolPermission": "always-proceed"
+}

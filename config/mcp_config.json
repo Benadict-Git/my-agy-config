@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "/home/benny/.local/share/mise/shims/npx",
+      "args": ["-y", "chrome-devtools-mcp@latest", "--executablePath=/usr/bin/chromium"]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+- [Iron Man screensaver pipeline](ironman-screensaver-pipeline.md) — foot font shim, ttfx wrapper with custom anims + hold, generate.py; testing gotchas
+- [Verify against user references](verify-against-user-references.md) — build visuals from the user's references and check real renders side by side
+- [agy setup](agy-setup.md) — how this agy is customized: claude-mode plugin, guard prefix, skill sources, own memory
+- [Iron Man shell HUD](ironman-shell-hud.md) — bar/battery/network/agents/lock restyle: files, plugin clones, safe lock preview, revert

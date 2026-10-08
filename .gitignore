@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.bak
+.DS_Store
+# never commit credentials or session data
+oauth_creds.json
+google_accounts.json
+trustedFolders.json
+installation_id
+state.json
+brain/
+conversations/
+history/
+logs/
