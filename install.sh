@@ -61,6 +61,20 @@ for f in "$SRC"/memory/*.md; do
   fi
 done
 
+echo "global skills (markitdown, ui-ux-pro-max and design skills)"
+mkdir -p "$G/config/skills" "$HOME/.agents/skills"
+if [ -d "$SRC/skills" ]; then
+  for s in "$SRC"/skills/*; do
+    [ -d "$s" ] || continue
+    sname="$(basename "$s")"
+    if [ ! -d "$G/config/skills/$sname" ]; then
+      cp -r "$s" "$G/config/skills/$sname"
+      echo "  installed skill $sname"
+    fi
+    ln -sfn "$G/config/skills/$sname" "$HOME/.agents/skills/$sname"
+  done
+fi
+
 cat <<'EOF'
 
 Done. Remaining manual steps:

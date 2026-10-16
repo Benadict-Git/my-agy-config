@@ -12,6 +12,7 @@ tool guard, workflow skills, and the plugins I run by default.
 | `config/mcp_config.json` | `~/.gemini/config/` | `chrome-devtools` MCP server (Chromium) |
 | `config/config.json` | `~/.gemini/config/` | Which plugins are enabled (merged, hostname removed) |
 | `cli/settings.json` | `~/.gemini/antigravity-cli/` | Theme, model, `always-proceed` (merged; trusted folders removed) |
+| `skills/` | `~/.gemini/config/skills/` | Global skills: `markitdown` file reader, `ui-ux-pro-max`, design suite |
 | `memory/` | `~/.gemini/memory/` | agy's own memory notes, loaded into every session |
 
 ### The `claude-mode` plugin
